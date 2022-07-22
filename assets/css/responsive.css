@@ -1,0 +1,128 @@
+/* PC */
+@media (min-width: 64em) {
+    .menu-btn{
+        display: none;
+    }
+}
+/* tablet and moblie */
+@media (max-width: 63.9375em) {
+    .contact-submit-btn{
+        font-size: 17px;
+    }
+    .form-control{
+        font-size: 16px;
+    }
+    #footer .icon-footer{
+        margin: 0 8px;
+    }
+    #footer .link-footer{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .menu-btn{
+        display: none;
+    }
+    #footer .sns-footer{
+        font-size: 48px;
+    }
+}
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .ti-menu{
+        color:rgb(250, 251, 252);
+        font-size: 15px;
+    }
+    #header .search-btn:hover{
+        background-color: #ccc;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li a {
+        display: block;
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333 ;  
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #slider h2, .text-description  {
+        display: none;
+    }
+    #content .main-content{
+        letter-spacing: -0.5px;
+    }
+    #content .list-members{
+        display: block;
+        text-align: center;
+        float: initial;
+        width: 100%;
+        height: 100%;
+        line-height: auto;
+    }
+    #content .list-members img{
+        width: 60%;
+        margin-top: initial;
+        
+    }
+    #content .list-members .item{
+        margin-top: 31px;
+        margin-bottom: 15px;
+    }
+    #content .item-content{
+        padding-bottom: 96px;
+    } 
+    .buyticket-area .buy-ticket{
+   
+        float:initial;
+        width: 100%;
+    }
+    .buyticket-area .buy-ticket .buy-button{
+        padding: 15.5px 22.5px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #contact .info-content{
+        width: 100%;
+    }
+    #contact .input-contact, 
+    .input-contact .name,
+    .input-contact .email{
+        width: 100%;
+        float: initial;
+
+    }
+    .contact {
+        padding-bottom: initial;
+        line-height: 1.7;
+    }
+    .input-contact .sent-contact{
+        width: 100%;
+        padding: 12.5px 0px;
+    }
+    #footer .sns-footer{
+        font-size: 35px;
+
+    }
+}
